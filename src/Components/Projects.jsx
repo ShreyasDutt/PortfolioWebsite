@@ -33,7 +33,7 @@ function Projects() {
         },
         {
             name: 'Authflow',
-            desc: "Custom auth system with Node.js, Express, MongoDB, and React, using JWT and SMTP for email verification and password resets.",
+            desc: "Custom auth paired up with SMTP for email verification and password resets.",
             link: "https://github.com/ShreyasDutt/AuthFlow",
             stack: <div className={"flex text-xl space-x-1.5 mt-3"}><FaNodeJs /><SiExpress /><SiMongodb /><FaReact /></div>
         }
