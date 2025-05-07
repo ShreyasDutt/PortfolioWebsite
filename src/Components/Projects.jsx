@@ -1,6 +1,6 @@
 import React from 'react';
 import {FiArrowUpRight} from "react-icons/fi";
-import {FaCss3Alt, FaHtml5, FaJava, FaNode, FaNodeJs, FaReact} from "react-icons/fa";
+import {FaCss3Alt, FaHtml5, FaNode, FaNodeJs, FaReact} from "react-icons/fa";
 import {RiTailwindCssFill} from "react-icons/ri";
 import {SiEjs, SiExpress, SiFramer, SiMongodb} from "react-icons/si";
 import {IoLogoJavascript} from "react-icons/io5";
@@ -32,10 +32,10 @@ function Projects() {
             stack: <div className={"flex text-xl space-x-1.5 mt-3"}>< FaReact /><RiTailwindCssFill /><SiFramer /></div>
         },
         {
-            name: '2048',
-            desc: "Implementation of the puzzle game 2048, where players combine tiles to make highest score.",
-            link: "https://2048-shreyas.netlify.app/",
-            stack: <div className={"flex text-xl space-x-1.5 mt-3"}><FaHtml5   /><FaCss3Alt /><IoLogoJavascript /></div>
+            name: 'Authflow',
+            desc: "Custom auth system with Node.js, Express, MongoDB, and React, using JWT and SMTP for email verification and password resets.",
+            link: "https://github.com/ShreyasDutt/AuthFlow",
+            stack: <div className={"flex text-xl space-x-1.5 mt-3"}><FaNodeJs /><SiExpress /><SiMongodb /><FaReact /></div>
         }
     ]
     return (
