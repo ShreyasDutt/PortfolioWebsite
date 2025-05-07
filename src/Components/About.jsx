@@ -54,7 +54,7 @@ function About() {
             </div>
             <div className={"mt-14 text-lg pb-10"}>
                 <p className={"text-white"}>
-                    Hi, I am Shreyas; a second-year BCIS student at UFV, passionate about web development and Android.
+                    Hi, I am Shreyas; a third-year BCIS student at UFV, passionate about web development and Android.
                     Ready to learn and grow in the tech world!</p>
             </div>
             <div className={"flex items-center justify-center"}>
