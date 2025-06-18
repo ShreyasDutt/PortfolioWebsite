@@ -11,10 +11,16 @@ import { TbBrandCpp } from "react-icons/tb";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
+import { SiNextdotjs } from "react-icons/si";
+
 
 
 function Tech(props) {
     const data = [
+        {
+            logo: <SiNextdotjs/>,
+            text: 'Next js',
+        },
         {
         logo: < FaReact />,
             text: 'React',
@@ -38,10 +44,6 @@ function Tech(props) {
         {
             logo: <SiMongodb  />,
             text: 'MongoDB',
-        },
-        {
-            logo: <TbBrandCpp />,
-            text: 'C++',
         },
         {
             logo: <FaJava  />,
