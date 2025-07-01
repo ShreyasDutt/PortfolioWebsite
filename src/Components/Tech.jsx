@@ -7,10 +7,9 @@ import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
-import { TbBrandCpp } from "react-icons/tb";
+import { SiTypescript } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io5";
 import { SiNextdotjs } from "react-icons/si";
 
 
@@ -63,8 +62,8 @@ function Tech(props) {
             text: 'CSS',
         },
         {
-            logo: <IoLogoJavascript />,
-            text: 'JavaScript',
+            logo: <SiTypescript />,
+            text: 'TypeScript',
         },
 
 
