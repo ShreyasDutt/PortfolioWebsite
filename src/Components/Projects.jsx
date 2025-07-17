@@ -1,12 +1,24 @@
 import React from 'react';
 import {FiArrowUpRight} from "react-icons/fi";
-import {FaCss3Alt, FaHtml5, FaNode, FaNodeJs, FaReact} from "react-icons/fa";
+import {FaNode, FaNodeJs, FaReact} from "react-icons/fa";
 import {RiTailwindCssFill} from "react-icons/ri";
-import {SiEjs, SiExpress, SiFramer, SiMongodb} from "react-icons/si";
-import {IoLogoJavascript} from "react-icons/io5";
+import {SiEjs, SiExpress, SiFramer, SiMongodb, SiNextdotjs, SiShadcnui} from "react-icons/si";
+import { DiRedis } from 'react-icons/di';
 
 function Projects() {
     const projects = [
+        {
+            name: 'Opinion',
+            "desc": "Opinion is a minimal web app that allows users to collect honest, anonymous feedbacks.",
+            link: "https://send-opinion.vercel.app/",
+            stack: <div className={"flex text-xl space-x-1.5 mt-3"}>
+                <SiNextdotjs />
+                <DiRedis />
+                <SiMongodb />
+                <SiShadcnui />
+                <RiTailwindCssFill />
+            </div>
+        },
         {
             name: 'Pinterest Clone',
             "desc": "Developed the backend for a Pinterest-like app with image uploads and user authentication.",
@@ -16,6 +28,17 @@ function Projects() {
                 <SiExpress />
                 <SiMongodb />
                 <SiEjs />
+                <RiTailwindCssFill />
+            </div>
+        },
+        {
+            name: 'LifeMap',
+            "desc": "LifeMap is a personal memory journal that lets you save life moments as Polaroid-style cards.",
+            link: "https://lifemap-plum.vercel.app/",
+            stack: <div className={"flex text-xl space-x-1.5 mt-3"}>
+                <SiNextdotjs />
+                <SiMongodb />
+                <SiShadcnui />
                 <RiTailwindCssFill />
             </div>
         },
