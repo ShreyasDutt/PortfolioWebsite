@@ -96,7 +96,7 @@ function About() {
             <div className={"text-white mb-10 flex flex-col"}>
                 <p className={"text-xl font-semibold md:text-2xl"}>Thanks for scrolling.</p>
           <div className={"mt-2"}>
-            <a href="/public/Resume.pdf" target="_blank">
+            <a href="/Resume.pdf" target="_blank">
                     <button className={"bg-[#2e2e31] flex items-center p-3 rounded-full px-9 hover:bg-[#19191C] transition duration-200 hover:scale-105"}>
                         <p>Resume</p>
                         <FiArrowUpRight className={"ml-2 text-lg"}/>
