@@ -25,7 +25,7 @@ function About() {
                 <p className={"text-4xl font-bold text-white mb-2 gradient padding"} id={"UlText"}>Hey,
                     {/* eslint-disable-next-line react/no-unescaped-entities */}
                     I'm <span>Shreyas</span></p>
-                <p className={"text-4xl font-bold bg-gradient-to-r from-[#ab7ad1]  to-[#cd306f] inline-block text-transparent bg-clip-text"}>Web
+                <p className={"text-4xl font-bold bg-gradient-to-r from-[#ab7ad1]  to-[#cd306f] inline-block text-transparent bg-clip-text"}>Full Stack
                     Developer.</p>
             </div>
             <div className={"flex space-x-3 mt-9"}>
@@ -46,16 +46,17 @@ function About() {
                 </div>
 
                 <div className={"bg-[#2e2e31] w-[6rem] h-10 flex items-center justify-center rounded-3xl hover:bg-[#19191C] transition duration-200"}>
-                    <a href="mailto:shreyas.dutt@student.ufv.ca" target={"_blank"}>
+                    <a href="mailto:shreyasduttwork@gmail.com" target={"_blank"}>
                     <button className={"flex items-center text-white mr-2"}><img width={"15px"} src={MailLogo} className={"mr-1.5"} alt=""/>Mail
                     </button>
                     </a>
                 </div>
             </div>
             <div className={"mt-14 text-lg pb-10"}>
-                <p className={"text-white"}>
-                    Hi, I am Shreyas; a third-year BCIS student at UFV, passionate about web development and Android.
-                    Ready to learn and grow in the tech world!</p>
+              <p className={"text-white"}>
+                  Hi, I’m Shreyas, a BCIS graduate and full-stack developer who enjoys turning ideas into
+                  real-world products. I build, break, debug, and ship things that solve actual problems.
+              </p>
             </div>
             <div className={"flex items-center justify-center"}>
                 <div className={"border-b border-[#2e2e31] w-[22rem] md:w-[30rem]"}></div>
@@ -94,11 +95,13 @@ function About() {
 
             <div className={"text-white mb-10 flex flex-col"}>
                 <p className={"text-xl font-semibold md:text-2xl"}>Thanks for scrolling.</p>
-                <div className={"mt-2"}>
+          <div className={"mt-2"}>
+            <a href="/public/Resume.pdf" target="_blank">
                     <button className={"bg-[#2e2e31] flex items-center p-3 rounded-full px-9 hover:bg-[#19191C] transition duration-200 hover:scale-105"}>
                         <p>Resume</p>
                         <FiArrowUpRight className={"ml-2 text-lg"}/>
                     </button>
+            </a>
                 </div>
 
             </div>

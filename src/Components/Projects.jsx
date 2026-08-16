@@ -1,4 +1,3 @@
-import React from 'react';
 import {FiArrowUpRight} from "react-icons/fi";
 import {FaNode, FaNodeJs, FaReact} from "react-icons/fa";
 import {RiTailwindCssFill} from "react-icons/ri";

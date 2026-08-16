@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiFramer } from "react-icons/si";
@@ -14,7 +13,7 @@ import { SiNextdotjs } from "react-icons/si";
 
 
 
-function Tech(props) {
+function Tech() {
     const data = [
         {
             logo: <SiNextdotjs/>,
