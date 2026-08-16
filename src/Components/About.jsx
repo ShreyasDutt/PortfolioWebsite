@@ -18,7 +18,7 @@ function About() {
                     </div>
 
                     <div className={"flex items-center"}>
-                        <p className={"text-white font-bold"}>Online.</p>
+                        <p className={"text-white font-bold"}>Open to work.</p>
                     </div>
                 </div>
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
