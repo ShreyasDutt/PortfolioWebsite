@@ -10,7 +10,7 @@ const Timeline = () => {
 
   const data = [
     {
-        date: "Feb 2026 - Present",
+        date: "Feb 2026 - Sept 2026",
         title: "Full-Stack Software Engineer at Canadian Cart",
         description:
         "Designed and built a full-scale e-commerce platform from the ground up, developing frontend and backend systems, database architecture, real-time features, payment workflows, and production deployments.",
